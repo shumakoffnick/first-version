@@ -16,17 +16,10 @@
 </head>
 <body>
     <div class="header">
-        <div class="block__min__menu">
-        <div class="mini__menu">
-            <ul>
-                <li><a class="mini__menu__link">HOME</a></li>
-                <li><a class="mini__menu__link">PROJECT</a></li>
-                <li><a class="mini__menu__link">MEASUREMENT</a></li>
-                <li><a class="mini__menu__link">TEAM</a></li>
-                <li><a class="mini__menu__link">REVIEWS</a></li>
-                <li><a class="mini__menu__link">CONTACTS</a></li>
-            </ul>
-        </div>
+        <div class="hamb" id="hamb">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
         <div class="logo">IC "Repair Design Project"</div>
         <div class="menu">
@@ -42,7 +35,16 @@
             <button type="button" class="menu__button">REQUEST A CALL</button>
         </div>
     </div>
-    
+    <div class="popup" id="popup">
+        <ul class="popup__menu">
+            <li><a class="popup__menu__link" data-gotopop=".page__section__1" href="#">HOME</a></li>
+            <li><a class="popup__menu__link" data-gotopop=".page__section__2" href="#">PROJECTS</a></li>
+            <li><a class="popup__menu__link" data-gotopop=".page__section__3" href="#">MEASUREMENT</a></li>
+            <li><a class="popup__menu__link" data-gotopop=".page__section__4" href="#">TEAM</a></li>
+            <li><a class="popup__menu__link" data-gotopop=".page__section__5" href="#">REVIEWS</a></li>
+            <li><a class="popup__menu__link" data-gotopop=".page__section__6" href="#">CONTACTS</a></li>
+        </ul>
+    </div>
         <div class="main page__section__1">
             <div class="main__shadow"></div>
             <div class="main__text">
@@ -50,7 +52,7 @@
                     <br>city of <span class="main__title__span">Rostov-on-Don</span></div>
                 <div class="main__subtitle">Get ready-made turnkey repairs on time
                     with work time saving up to 45 days and 20% from
-                    cost of materials due to the organization of work<csk/div>
+                    cost of materials due to the organization of work</div>
                 <div class="main__btn">
                     <button class="btn__calc">CALCULATE THE COST</button>
                     <button class="btn__submit">SUBMIT YOUR APPLICATION</button>
@@ -111,7 +113,7 @@
             <i class="fa-solid fa-minus"></i>
         </div>
         
-        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/RHzzLqJWqHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="video"><iframe class="video__frame" width="560" height="315" src="https://www.youtube.com/embed/RHzzLqJWqHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <div class="video__text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
         Leave a request below and you will receive a link to the broadcast.</div>
         <div class="input__form">
@@ -237,7 +239,6 @@
                     <div class="quest__inp__email">Email</div>
                     <input type="email" class="question__theInput__email" placeholder="Your Email:">
                 </div>
-                
                 <div class="question__done"></div>
                 <div class="question__done__active">
                     <i class="fa-solid fa-angle-down"></i>

@@ -42,6 +42,9 @@
         display: block;
         width: 1300px;
     }
+    .project__content{
+        width: 1300px;
+    }
     .project__info{
         margin-top: 0px;
         margin-left: 0px;
@@ -110,8 +113,7 @@
     .types__of__repair{
         width: 1300px;
     }
-    .types__of__repair__item{
-    }
+    
     .repair__img{
         width: 380px;
         height: 450px;
@@ -133,6 +135,9 @@
     }
     .repair__info__item__button{
         margin-top: 20px;
+    }
+    .repair__info__item__text{
+        width: 200px;
     }
     .stage__number{
         margin-left: 50px;
@@ -170,12 +175,572 @@
     .final__op{
         width: 1300px;
     }
-    .contact__form{
-    }
     .footer{
         width: 1300px;
     }
     .social__icon{
         width: 1300px;
+    }
+}
+@media(max-width: 1024px){
+    .header{
+        width: 1024px;
+        justify-content: space-between;
+    }
+    .main{
+        width: 1024px
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .main__shadow{
+        width: 1024px
+    }
+    .hamb{
+        
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+    
+    .menu__button{
+        margin-right: 20px;
+    }
+    .main__text{
+        padding-top: 100px;
+        padding-left: 300px;
+    }
+    .project{
+        width: 1024px;
+        height: 1000px;
+    }
+    
+    .project__title{
+        width: 1024px;
+        margin-left: 0px;
+        margin-right: 500px;
+        margin-top: 60px;
+    }
+    .slider__info{
+        margin-left: 260px;
+    }
+    .project__item{
+        width: 1024px;
+        text-align: center;
+    }
+    .project__content{
+        width: 1024px;
+    }
+    .project__text{
+        margin-left: 300px;
+    }
+    .project__info{
+        width: 1024px;
+        height: 50px;
+    }
+    .project__slider{
+        margin-right: 150px;
+    }  
+    .slider__btn{
+        transform: translateY(600px);
+        margin-left: 400px;
+    }  
+    .control{
+        width: 1024px;
+    }
+    .video__icons{
+        width: 1024px;
+    }
+    .video{
+        width: 1024px;
+    }
+    .video__text::before{
+        margin-left: 480px;
+    }
+    .video__text{
+        width: 1024px;
+    }
+    .input__form{
+        width: 1024px;
+    }
+    .input__check{
+        margin-left: 400px;
+    }
+    .types__of__repair{
+        width: 1024px;
+    }
+    .repair__img{
+        width: 300px;
+        height: 370px;
+    }
+    .stage__and__question{
+        display: block;
+        width: 1024px;
+    }
+    .stage{
+        margin-left: 250px;
+    }
+    .question{
+        width: 1024px;
+        
+    }
+    .question__title{
+        margin-left: 370px;
+    }
+    .clients{
+        width: 1024px;
+    }
+    .clients__title{
+        width: 1024px;
+    }
+    .clients__icons{
+        width: 1024px;
+    }
+    .clients__suptitle{
+        margin-left: 280px;
+    }
+    .clients__block{
+        width: 300px;
+        height: 400px;
+    }
+    .clients__text{
+        width: 250px;
+        line-height: 20px;
+    }
+    .clients__button{
+        transform: translateY(+8px);
+    }
+    .background__city{
+        width: 1024px;
+    }
+    .city__img{
+        width: 512px;
+    }
+   
+    .final__op{
+        width: 1024px;
+    }
+    .final{
+        width: 1024px;
+    }
+    .final__contact__text{
+        margin-left: 200px;
+    }
+    .social__icon{
+        width: 1024px;
+    }
+    .footer{
+        width: 1024px;   
+    }   
+}
+@media(max-width: 768px){
+    .header{
+        width: 768px;
+    }
+    .menu{
+        display: none;
+    }
+    .hamb{
+        display: block;
+    }
+    .logo{
+        margin-right: 300px;
+    }
+    .main{
+        width: 768px;
+    }
+    .main__shadow{
+        width: 768px;
+    }
+    
+    .main__text{
+        padding-left: 150px;
+    }
+    .project{
+        width: 768px;
+    }
+    .project__item{
+        width: 768px
+    }
+    .slider__info{
+        width: 600px;
+        margin-left: 100px;
+    }
+    .project__title{
+        width: 768px;
+    }
+    .project__text{
+        margin-left: 150px;
+    }
+    .project__content{
+        width: 768px;
+    }
+    .project__info{
+        width: 768px;
+        margin-right: 100px;
+    }
+    .project__city{
+    padding: 0;
+    margin: 0px;
+    width: 100px;
+    }
+    .project__slider{
+        margin-right: 40px;
+    }
+    .slider__btn{
+        margin-left: 285px;
+    }
+    .control{
+        width: 768px;
+    }
+    .video__icons{
+        width: 768px;
+    }
+    .video{
+        width: 768px;
+    }
+    .video__text{
+        width: 768px;
+    }
+    .video__text::before{
+        margin-left: 360px;
+    }
+    .input__form{
+        width: 768px;
+    }
+    .input__check{
+        padding-right: 100px;
+        margin-left: 250px;
+    }
+    .types__of__repair{
+        width: 768px;
+    }
+    .repair__img{
+        width: 250px;
+    }
+    .repair__info__item{
+        width: 250px;
+    }
+    .stage__and__question{
+        width: 768px;
+    }
+    .stage{
+        margin-left: 0px;
+        width: 768px;
+    }
+    .stage__number{
+        margin-left: 100px;
+    }
+    .question{
+        width: 768px;
+    }
+    .question__title{
+        margin-left: 250px;
+    }
+    .clients{
+        width: 768px;
+    }
+    .clients__button{
+        width: 240px;
+    }
+    .days__text{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .m2{
+        padding-left: 15px;
+    }
+    .m2__text{
+        padding-left: 5px;
+    }
+    .clients__block{
+        width: 240px;
+    }
+    .clients__title{
+        width: 768px;
+    }
+    .clients__text{
+        line-height: 20px;
+        width: 230px;
+        font-size: 12px;
+        margin-left: 3px;
+    }
+    .clients__icons{
+        width: 768px;
+    }
+    .clients__suptitle{
+        margin-left: 150px;
+    }
+    .background__city{
+        width: 768px;
+    }
+    
+    .city__img{
+        width: 384px;
+        height: 430px;
+    }
+    .fin__button{
+        margin-left: 290px;
+    }
+    .final{
+        width: 768px;
+    }
+    .final__op{
+        width: 768px;
+    }
+    .final__contact__text{
+        margin-left: 100px;
+    }
+    .contact__form__block{
+        width: 768px;
+    }
+   .social__icon{
+    width: 768px;
+   }
+    .footer{
+        width: 768px;
+        padding-top: 30px;
+        height: 50px;
+    }
+    .footer__menu{
+        display: none;
+    }
+    
+}
+
+
+@media(max-width: 480px){
+    
+    .header{
+        width: 480px;
+    }
+    .logo{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .main{
+        width: 480px;
+        height: 700px;
+    }
+    .main__shadow{
+        width: 480px;
+        height: 700px;
+    }
+    .main__title{
+        width: 400px;
+        transform: translateX(-100px);
+    }
+    .main__btn{
+        display: block;
+        width: 100px;
+        margin-top: 70px;
+    }
+    .main__subtitle{
+        margin-top: 100px;
+        width: 400px;
+        transform: translateX(-100px);
+    }
+    .btn__submit{
+        margin-top: 30px;
+    }
+    .number{
+        margin-right: 10px;
+        width: 100px;
+    }
+    .project{
+        width: 480px;
+        height: 500px;
+    }
+    .slider__info{
+        display: none;
+    }
+    .project__title{
+        background-color: #131313;
+        width: 480px;
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+    .project__item{
+        width: 480px;
+        height: 700px;
+    }
+    .project__text{
+        width: 450px;
+        margin-left: 15px;
+        font-size: 14px;
+        padding-top: 30px;
+    }
+    .project__content{
+        width: 480px;
+    }
+    .project__slider{
+        display: none;
+    }
+    .project__info{
+        width: 480px;
+        flex-wrap: wrap;
+    }
+    .project__city{
+        width: 200px;
+    }
+    .repair__title{
+        margin-top: 10px;
+    }
+    .cost__title{
+        margin-top: 10px;
+    }
+    .slider__btn{
+        display: none;
+    }
+    .control{
+        width: 480px;
+        margin-top: 20px;
+    }
+    .video__icons{
+        width: 480px;
+        margin-top: 20px;
+    }
+    .video{
+        width: 480px;
+    }
+    .video__frame{
+        width: 450px;
+    }
+    .video__text{
+        width: 480px;
+    }
+    .video__text::before{
+        margin-left: 220px;
+    }
+    .input__form{
+        width: 450px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .input__check{
+        margin-left: 120px;
+        width: 100px;
+    }
+    .input__check__text{
+        width: 300px;
+    }
+    .types__of__repair{
+        width: 480px;
+    }
+    .repair__img{
+        width: 160px;
+        height: 280px;
+    }
+    .repair__info__item{
+        width: 160px;
+        height: 310px;
+    }
+    .repair__info__item__text{
+        font-size: 10px;
+        width: 100px;
+    }
+    .repair__info__item__button{
+        width: 150px;
+        font-size: 15px;
+    }
+    .stage__and__question{
+        width: 480px;
+    }
+    .stage{
+        width: 480px;
+        height: 700px;
+    }
+    .stage__number{
+        margin-top: 0;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+    .question{
+        width: 480px;
+    }
+    .question__title{
+        margin-left: 100px;
+    }
+    .piggy__bank{
+        margin-right: 0px;
+    }
+    .clients{
+        width: 480px;
+    }
+    .clients__title{
+        width: 480px;
+    }
+    .clients__icons{
+        width: 480px;
+    }
+    .clients__suptitle{
+        margin-left: 5px;
+    }
+    .clients__item{
+        display: block;
+    }
+    .clients__block{
+        margin-left: 100px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .clients__ph{
+        margin-top: 5px;
+    }
+    .city__img{
+        width: 240px;
+    }
+    .background__city{
+        height: 300px;
+        width: 480px;
+    }
+    .contact__form__block{
+        width: 460px;
+    }
+    .final{
+        width: 480px;
+    }
+    .final__input{
+        display: block;
+    }
+    .name__final__input__name{
+        margin-left: 100px;
+    }
+    .final__Name{
+        margin-left: 100px;
+    }
+    .name__final__input__phone{
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+    .final__Tel{
+        margin-left: 100px;
+        width: 300px;
+    }
+    .final__input__question__name{
+        transform: translateX(-25px);
+    }
+    .final__question{
+        width: 300px;
+        transform: translateX(-25px);
+    }
+    .final__op{
+        width: 480px;
+    }
+    .fin__button{
+        margin-left: 140px;
+    }
+    .final__contact__text{
+        width: 450px;
+        margin-left: 20px;
+    }
+    .social__icon{
+        width: 480px;
+    }
+    .location__map{
+        width: 450px;
+    }
+    .footer{
+        width: 480px;
     }
 }
